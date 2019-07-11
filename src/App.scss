@@ -1,0 +1,13 @@
+ul li,
+ol li {
+  list-style: none;
+}
+
+/*将列表标签的默认样式清除*/
+
+a {
+  text-decoration: none;
+  outline: none;
+  color: #262626;
+  //   blr: expression(this.onFocus=this.blur());
+}

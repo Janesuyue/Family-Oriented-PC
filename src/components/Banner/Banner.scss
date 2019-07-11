@@ -1,11 +1,16 @@
-
-.ant-carousel .slick-slide {
-    text-align: center;
-    height: 160px;
-    line-height: 160px;
-    background: #364d79;
-    overflow: hidden;
-    h3{
-        color: #fff;
-    }
+.ant-carousel .slick-slide .slick-list .slick-track {
+  text-align: center;
+  height: 500px;
+  line-height: 500px;
+  //   background: #364d79;
+  overflow: hidden;
+  h3 {
+    color: #fff;
+  }
+  .outPhoto {
+    height: 500px;
+  }
+}
+.ant-carousel .slick-slider .slick-initialized {
+  height: 500px;
 }

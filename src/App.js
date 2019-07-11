@@ -1,21 +1,23 @@
-import React,{Component} from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import Home from './views/Home';
-import Login from './views/Login/Login';
+import React, { Component } from "react";
 
-class App extends Component{
-  constructor(){
-    super()
+import "./App.scss";
+import Home from "./views/Home";
+import Login from "./views/Login/Login";
+import Footer from "./views/Footer/Footer";
+
+class App extends Component {
+  constructor() {
+    super();
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        <Home/>
-        <Login/>
+        <Home />
+        <Login />
+        <Footer />
       </div>
-    )
+    );
   }
 }
 

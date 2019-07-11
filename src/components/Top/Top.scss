@@ -1,0 +1,51 @@
+.head div.sList {
+  position: absolute;
+  top: 113px;
+  left: 0;
+  z-index: 3;
+  background: #fff;
+  width: 100%;
+  display: none;
+}
+
+.head div.sList div {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+}
+
+.head div.sList div a {
+  flex: 1 1 20%;
+  border-right: 1px solid #dbdbdb;
+}
+
+.head div.sList div a:last-child {
+  border-right: none;
+}
+
+.head div.sList div dl dt img {
+  width: 70%;
+}
+
+.head div.sList div dl dd {
+  font-size: 14px;
+}
+
+.clearfix a {
+  display: block;
+  margin-left: 20px;
+}
+.clearfix dd {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.ant-tabs-tab-active .ant-tabs-tab:hover dd {
+  color: red;
+}
+nav .ant-tabs-tab:active {
+  color: red;
+}
+.first {
+  margin-left: 100px;
+}
