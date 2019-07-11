@@ -1,21 +1,30 @@
-import React,{Component} from 'react';
-import logo from './logo.svg';
-import './App.scss';
-import Home from './views/Home';
-import Login from './views/Login/Login';
+import React, { Component } from "react";
+import "./App.scss";
+import Login1 from "./views/Login/login";
+import {
+  BrowserRouter as Router,
+  Route,
+  NavLink,
+  Redirect
+} from "react-router-dom";
+import Register1 from "../src/views/Register/register";
 
-class App extends Component{
-  constructor(){
-    super()
+class App extends Component {
+  constructor() {
+    super();
   }
-
-  render(){
-    return(
+  render() {
+    return (
       <div>
-        <Home/>
-        <Login/>
+        <Router>
+          <div>
+            <Redirect to="/login" />
+            <Route path="/login" component={Login1} />
+            <Route path="/register" component={Register1} />
+          </div>
+        </Router>
       </div>
-    )
+    );
   }
 }
 
