@@ -138,7 +138,7 @@ export default class Detail extends Component {
           </div>
         </div>
         <div className="xiangqing">
-          <Tabs defaultActiveKey="1" onChange={callback}>
+          <Tabs defaultActiveKey="1" onChange={callback} className="pingjia">
             <TabPane tab="商品详情" key="1">
               <img src={this.state.detail.coverImg} />
             </TabPane>

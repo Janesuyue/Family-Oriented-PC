@@ -8,7 +8,11 @@ import Detail from "./views/Detail/Detail";
 import Top from "./components/Top/Top";
 import Picture from "./views/Picture/Picture";
 import "./App.scss";
+<<<<<<< HEAD
 import Login1 from "./views/Login/login";
+=======
+import Login1 from "./views/Login/Login";
+>>>>>>> b6d36e9c0cb026cd9ec02ba25ea974297a69d2ef
 import {
   BrowserRouter as Router,
   Route,

@@ -9,6 +9,10 @@ export default class Home extends Component {
       <div>
         <Top />
         <Banner />
+<<<<<<< HEAD
+=======
+        <h2>111</h2>
+>>>>>>> b6d36e9c0cb026cd9ec02ba25ea974297a69d2ef
       </div>
     );
   }
