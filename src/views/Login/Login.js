@@ -6,7 +6,7 @@ import {
   NavLink,
   Link
 } from "react-router-dom";
-import login from "./Login.scss";
+import login from "./login.scss";
 import Register from "../Register/register";
 
 import { Form, Icon, Input, Button, Checkbox } from "antd";

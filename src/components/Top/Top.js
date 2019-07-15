@@ -41,11 +41,11 @@ export default class Top extends Component {
               <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ss.png" />
             </div>
 
-            <div class="btn fl clearfix">
+            <div className="btn fl clearfix">
               <a href="mine" onClick={this.person.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/grzx.png" />
               </a>
-              <a href="#" class="er1">
+              <a href="#" className="er1">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ewm.png" />
               </a>
               <a href="#" onClick={this.gouwu.bind(this)}>

@@ -63,15 +63,15 @@ export default class Shouye extends Component {
               <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ih2.jpg" />
             </Col>
           </Row>
-          <div class="news">
-            <div class="wrapper">
-              <div class="flower clearfix tran">
-                <a href="proDetail.html" class="clearfix">
+          <div className="news">
+            <div className="wrapper">
+              <div className="flower clearfix tran">
+                <a href="proDetail.html" className="clearfix">
                   <dl>
                     <dt>
-                      <span class="abl" />
+                      <span className="abl" />
                       <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo1.jpg" />
-                      <span class="abr" />
+                      <span className="abr" />
                     </dt>
                     <dd>【花艺】七头美丽玫瑰仿真花束</dd>
                     <dd>
@@ -82,9 +82,9 @@ export default class Shouye extends Component {
                 <a href="proDetail.html">
                   <dl>
                     <dt>
-                      <span class="abl" />
+                      <span className="abl" />
                       <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo2.jpg" />
-                      <span class="abr" />
+                      <span className="abr" />
                     </dt>
                     <dd>【花艺】七头美丽玫瑰仿真花束</dd>
                     <dd>
@@ -95,9 +95,9 @@ export default class Shouye extends Component {
                 <a href="proDetail.html">
                   <dl>
                     <dt>
-                      <span class="abl" />
+                      <span className="abl" />
                       <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo3.jpg" />
-                      <span class="abr" />
+                      <span className="abr" />
                     </dt>
                     <dd>【花艺】七头美丽玫瑰仿真花束</dd>
                     <dd>
@@ -107,21 +107,21 @@ export default class Shouye extends Component {
                 </a>
               </div>
             </div>
-            <a href="#" class="ad">
+            <a href="#" className="ad">
               <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ib1.jpg" />
             </a>
-            <div class="people">
-              <div class="wrapper">
+            <div className="people">
+              <div className="wrapper">
                 <h2>
                   <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ih3.jpg" />
                 </h2>
-                <div class="pList clearfix tran">
+                <div className="pList clearfix tran">
                   <a href="proDetail.html">
                     <dl>
                       <dt>
-                        <span class="abl" />
+                        <span className="abl" />
                         <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s7.jpg" />
-                        <span class="abr" />
+                        <span className="abr" />
                       </dt>
                       <dd>【最家】不锈钢壁饰墙饰软装</dd>
                       <dd>
@@ -132,9 +132,9 @@ export default class Shouye extends Component {
                   <a href="proDetail.html">
                     <dl>
                       <dt>
-                        <span class="abl" />
+                        <span className="abl" />
                         <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s10.jpg" />
-                        <span class="abr" />
+                        <span className="abr" />
                       </dt>
                       <dd>【最家】小城动物木板画壁挂北欧</dd>
                       <dd>
@@ -145,9 +145,9 @@ export default class Shouye extends Component {
                   <a href="proDetail.html">
                     <dl>
                       <dt>
-                        <span class="abl" />
+                        <span className="abl" />
                         <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s8.jpg" />
-                        <span class="abr" />
+                        <span className="abr" />
                       </dt>
                       <dd>【最家】玄关假山水壁饰背景墙饰挂件创意</dd>
                       <dd>
@@ -158,9 +158,9 @@ export default class Shouye extends Component {
                   <a href="proDetail.html">
                     <dl>
                       <dt>
-                        <span class="abl" />
+                        <span className="abl" />
                         <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s9.jpg" />
-                        <span class="abr" />
+                        <span className="abr" />
                       </dt>
                       <dd>【最家】金属树枝壁饰铜鸟装饰品</dd>
                       <dd>
