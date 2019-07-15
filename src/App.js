@@ -43,11 +43,11 @@ class App extends Component {
             <Route path="/shouye" component={Shouye} />
 
             <Route path="/wall" component={Top} />
-            <Route path="/wall" component={Footer} />
+
             <Route path="/app/item" component={Item} />
 
             <Route path="/wall" component={Wall} />
-
+            <Route path="/wall" component={Footer} />
             <Route path="/shouye" component={Footer} />
 
             {/* <Detail /> */}

@@ -25,17 +25,24 @@
   line-height: 50px;
   font-size: 14px;
 }
+.check {
+  width: 200px;
+}
 .check > p {
   margin-top: 10px;
   font-size: 14px;
+  margin-left: 20px;
 }
 .yanse {
   font-size: 12px;
-  color: #dbdbdb;
+  color: gray;
+  margin-left: 20px;
 }
 
 .check img {
   margin-left: 20px;
+  width: 120px;
+  height: 120px;
 }
 .ant-row-flex-space-between {
 }
