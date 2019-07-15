@@ -28,11 +28,16 @@ export default class Top extends Component {
           </div>
 
           <div className="fr clearfix" id="top1">
+<<<<<<< HEAD
             <p className="fl denglu">
               <a href="#" id="login">
+=======
+            <p className="fl ">
+              <a href="login" id="login">
+>>>>>>> d123d66a2d3553059bab825a94e4a63bf78cce93
                 登录
               </a>
-              <a href="#" id="reg">
+              <a href="register" id="reg">
                 注册
               </a>
             </p>
@@ -42,10 +47,14 @@ export default class Top extends Component {
             </div>
 
             <div className="btn fl clearfix">
+<<<<<<< HEAD
               <a href="#" onClick={this.person.bind(this)}>
+=======
+              <a href="mine" onClick={this.person.bind(this)}>
+>>>>>>> d123d66a2d3553059bab825a94e4a63bf78cce93
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/grzx.png" />
               </a>
-              <a href="#" class="er1">
+              <a href="#" className="er1">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ewm.png" />
               </a>
               <a href="#" onClick={this.gouwu.bind(this)}>

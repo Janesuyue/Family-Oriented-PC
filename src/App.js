@@ -9,6 +9,7 @@ import Top from "./components/Top/Top";
 import Picture from "./views/Picture/Picture";
 import "./App.scss";
 import Login1 from "./views/Login/Login";
+import Jiesuan from "./views/Jiesuan/Jiesuan";
 import {
   BrowserRouter as Router,
   Route,
@@ -35,24 +36,26 @@ class App extends Component {
 
             {/* <Picture /> */}
             {/* <Footer /> */}
+            {/* <Redirect to="/shouye" /> */}
 
-            <Route path="/shouye" component={Home} />
             <Route path="/detail" component={Detail} />
-
+            <Route path="/shouye" component={Home} />
             <Route path="/shouye" component={Shouye} />
-            <Route path="/app/item" component={Item} />
 
             <Route path="/wall" component={Top} />
-            <Route path="/wall" component={Wall} />
             <Route path="/wall" component={Footer} />
+            <Route path="/app/item" component={Item} />
+
+            <Route path="/wall" component={Wall} />
 
             <Route path="/shouye" component={Footer} />
-            {/* <Redirect to="/shouye" /> */}
+
             {/* <Detail /> */}
             {/* <Redirect to="/login" /> */}
             <Route path="/login" component={Login1} />
             <Route path="/register" component={Register1} />
             <Route path="/mine" component={Mine} />
+            <Route path="/jiesuan" component={Jiesuan} />
           </div>
         </Router>
       </div>

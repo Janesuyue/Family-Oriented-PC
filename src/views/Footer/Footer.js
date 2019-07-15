@@ -10,34 +10,34 @@ export default class Middle extends Component {
         <Row type="flex" justify="space-around">
           <Col span={4}>
             <div className="clearfix">
-              <a href="#2" class="fl">
+              <a href="#2" className="fl">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/foot1.png" />
               </a>
-              <span class="fl">7天无理由退货</span>
+              <span className="fl">7天无理由退货</span>
             </div>
           </Col>
           <Col span={4}>
             <div className="clearfix">
-              <a href="#2" class="fl">
+              <a href="#2" className="fl">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/foot2.png" />
               </a>
-              <span class="fl">15天免费换货</span>
+              <span className="fl">15天免费换货</span>
             </div>
           </Col>
           <Col span={4}>
             <div className="clearfix">
-              <a href="#2" class="fl">
+              <a href="#2" className="fl">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/foot3.png" />
               </a>
-              <span class="fl">满599包邮</span>
+              <span className="fl">满599包邮</span>
             </div>
           </Col>
           <Col span={4}>
             <div className="clearfix">
-              <a href="#2" class="fl">
+              <a href="#2" className="fl">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/foot4.png" />
               </a>
-              <span class="fl">手机特色服务</span>
+              <span className="fl">手机特色服务</span>
             </div>
           </Col>
         </Row>
