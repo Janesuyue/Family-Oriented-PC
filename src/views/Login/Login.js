@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import axios from "axios";
 import {
   BrowserRouter as Router,
   Route,
@@ -16,6 +17,30 @@ class Login extends Component {
     this.props.form.validateFields((err, values) => {
       if (!err) {
         console.log("Received values of form: ", values);
+        var token = localStorage.getItem("token");
+        console.log(token);
+
+        axios({
+          method: "post",
+          url: "http://api.cat-shop.penkuoer.com/api/v1/auth/login",
+          data: {
+            userName: values.username,
+            password: values.password
+          },
+          headers: {
+            Accept: "application/json",
+            Authorization: "Bearer " + token
+          }
+        }).then(res => {
+          console.log(res);
+          if (res.data.code == "success") {
+            alert("登陆成功");
+          } else if (res.data.message == "用户密码错误！") {
+            alert("密码错误");
+          } else if (res.data.message == "user not found") {
+            alert("用户名不存在");
+          }
+        });
       }
     });
   };

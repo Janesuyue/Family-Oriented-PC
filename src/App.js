@@ -8,6 +8,7 @@ import {
   Redirect
 } from "react-router-dom";
 import Register1 from "../src/views/Register/register";
+import Mine from "./views/Mine/mine";
 
 class App extends Component {
   constructor() {
@@ -18,9 +19,10 @@ class App extends Component {
       <div>
         <Router>
           <div>
-            <Redirect to="/login" />
+            {/* <Redirect to="/login" /> */}
             <Route path="/login" component={Login1} />
             <Route path="/register" component={Register1} />
+            <Route path="/mine" component={Mine} />
           </div>
         </Router>
       </div>

@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+
 import register from "./register.scss";
+import axios from "axios";
 import {
   Form,
   Input,
@@ -28,6 +30,28 @@ class Register extends Component {
     this.props.form.validateFieldsAndScroll((err, values) => {
       if (!err) {
         console.log("Received values of form: ", values);
+
+        axios({
+          method: "post",
+          url: "http://api.cat-shop.penkuoer.com/api/v1/auth/reg",
+          data: {
+            nickName: values.nickname,
+            userName: values.username,
+            password: values.password,
+            avatar: values.phone
+          }
+        }).then(res => {
+          console.log(res);
+          if (res.data.code == "error") {
+            alert("用户名已存在");
+          } else {
+            alert("注册成功");
+
+            localStorage.setItem("token", res.data.token);
+            this.props.history.push("/login");
+            console.log(res.data.token);
+          }
+        });
       }
     });
   };
@@ -51,7 +75,7 @@ class Register extends Component {
     if (value && this.state.confirmDirty) {
       form.validateFields(["confirm"], { force: true });
     }
-    callback();
+    callback(); //验证成功，加参数表示验证失败，并指定提示的文本
   };
 
   handleWebsiteChange = value => {
@@ -114,16 +138,12 @@ class Register extends Component {
             onSubmit={this.handleSubmit}
             className="biaodan"
           >
-            <Form.Item label="邮箱">
-              {getFieldDecorator("email", {
+            <Form.Item label="姓名">
+              {getFieldDecorator("username", {
                 rules: [
                   {
-                    type: "email",
-                    message: "邮箱格式不正确"
-                  },
-                  {
                     required: true,
-                    message: "请输入你的邮箱"
+                    message: "请输入用户名"
                   }
                 ]
               })(<Input />)}
@@ -156,11 +176,20 @@ class Register extends Component {
             </Form.Item>
             <Form.Item label={<span>昵称&nbsp;</span>}>
               {getFieldDecorator("nickname", {
+                //验证
                 rules: [
                   {
                     required: true,
                     message: "请输入昵称",
                     whitespace: true
+                  },
+                  {
+                    min: 4,
+                    message: "用户名至少4位"
+                  },
+                  {
+                    max: 4,
+                    message: "用户名最多只能6位"
                   }
                 ]
               })(<Input />)}
@@ -214,5 +243,6 @@ class Register extends Component {
     );
   }
 }
+
 const Register1 = Form.create({ name: "register" })(Register);
 export default Register1;
