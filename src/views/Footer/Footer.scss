@@ -1,48 +1,56 @@
-.footer {
-  // min-width: 1160px;
-}
+// .footer {
+//   // min-width: 1160px;
+// }
 
-.footer .top {
-  padding: 30px 0;
-  border-top: 1px solid #dbdbdb;
-  border-bottom: 1px solid #dbdbdb;
-}
+// .footer .top {
+//   padding: 30px 0;
+//   border-top: 1px solid #dbdbdb;
+//   border-bottom: 1px solid #dbdbdb;
+// }
 
-.footer .top .wrapper {
-  display: flex;
-}
+// .footer .top .wrapper {
+//   display: flex;
+// }
 
-.footer .top .wrapper div {
-  flex: 1 1 25%;
-  border-right: 1px solid #dbdbdb;
-}
+// .footer .top .wrapper div {
+//   flex: 1 1 25%;
+//   border-right: 1px solid #dbdbdb;
+// }
 
-.footer .top .wrapper div:last-child {
-  border-right: none;
-}
+// .footer .top .wrapper div:last-child {
+//   border-right: none;
+// }
 
 .footer .top .wrapper div a img {
+  margin-bottom: 15px;
   display: block;
 }
 
-.footer .top .wrapper div a {
-  margin-left: 25%;
-}
+// .footer .top .wrapper div a {
+//   margin-left: 25%;
+// }
 
 .footer .top .wrapper div span {
+  display: block;
   margin-top: 15px;
   margin-left: 10px;
-  display: block;
+
   font-size: 16px;
 }
 
-.footer p.dibu {
+.dibu {
   background: #000;
   padding: 30px 0;
   text-align: center;
   color: #fff;
 }
-.clearfix {
-  display: flex;
-  justify-content: center;
+.outFooter {
+  border-top: 1px solid #eeeeee;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+.outFooter span {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }

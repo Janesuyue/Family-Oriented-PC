@@ -5,7 +5,7 @@ import "./shouye.scss";
 import { Row, Col } from "antd";
 import Picture from "../Picture/Picture";
 
-export default class Login extends Component {
+export default class Shouye extends Component {
   constructor() {
     super();
   }

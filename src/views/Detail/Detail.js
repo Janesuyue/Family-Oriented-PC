@@ -138,7 +138,7 @@ export default class Detail extends Component {
           </div>
         </div>
         <div className="xiangqing">
-          <Tabs defaultActiveKey="1" onChange={callback}>
+          <Tabs defaultActiveKey="1" onChange={callback} className="pingjia">
             <TabPane tab="商品详情" key="1">
               <img src={this.state.detail.coverImg} />
             </TabPane>
@@ -194,7 +194,7 @@ export default class Detail extends Component {
     }).then(res => {
       console.log(res);
       if (res.code.data == "success") {
-        window.location.href = "/cart";
+        window.location.href = "/wall";
       }
     });
   }
