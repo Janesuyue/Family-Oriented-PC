@@ -10,6 +10,89 @@ body {
 .message {
   width: 1200px;
   height: 100%;
-  background: #eee;
+  //   background: #ececec;
   margin: 0 auto;
+  button {
+    margin-left: 550px;
+  }
+}
+.fanhui {
+  height: 40px;
+  h2 {
+    width: 100px;
+    float: left;
+    line-height: 40px;
+  }
+  a {
+    color: red;
+    float: right;
+    font-size: 12px;
+  }
+  .oli {
+    width: 1200px;
+
+    li {
+      height: 120px;
+      background: #eee;
+      margin-top: 10px;
+      img {
+        width: 87px;
+        height: 87px;
+        float: left;
+      }
+      .oli1 {
+        width: 900px;
+        float: left;
+        margin-left: 50px;
+        p {
+          font-size: 13px;
+        }
+      }
+      span {
+        width: 30px;
+        display: block;
+        height: 120px;
+        line-height: 120px;
+        float: left;
+      }
+    }
+  }
+}
+.tips {
+  width: 1200px;
+  height: 110px;
+  padding-left: 40px;
+
+  .fl {
+    display: block;
+    width: 1000px;
+    float: left;
+    font-size: 12px;
+  }
+  .fr {
+    display: block;
+    width: 200px;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+  }
+}
+.heji {
+  width: 1200px;
+  height: 30px;
+  .heji1 {
+    display: block;
+    width: 1000px;
+    float: left;
+    font-size: 20px;
+  }
+  .heji2 {
+    display: block;
+    width: 200px;
+    float: right;
+    text-align: right;
+    font-size: 20px;
+    color: #f00;
+    font-family: "微软雅黑", "arial";
+  }
 }

@@ -48,6 +48,10 @@ class App extends Component {
 
             <Route path="/wall" component={Wall} />
             <Route path="/wall" component={Footer} />
+<<<<<<< HEAD
+=======
+
+>>>>>>> dd5abf4a133c203c834a8856de2af6ea668a34fc
             <Route path="/shouye" component={Footer} />
 
             {/* <Detail /> */}

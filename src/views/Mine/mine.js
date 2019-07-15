@@ -62,7 +62,7 @@ export default class Mine extends Component {
                       }
                     >
                       <Menu.Item key="1">
-                        <NavLink to="/mine/mycart">我的购物车</NavLink>
+                        <a href="/wall">我的购物车</a>
                       </Menu.Item>
                       <Menu.Item key="2">
                         <NavLink to="/mine/myorder">我的订单</NavLink>
