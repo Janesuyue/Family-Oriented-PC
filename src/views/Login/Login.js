@@ -35,10 +35,6 @@ class Login extends Component {
           console.log(res);
           if (res.data.code == "success") {
             alert("登陆成功");
-<<<<<<< HEAD
-
-=======
->>>>>>> d123d66a2d3553059bab825a94e4a63bf78cce93
             this.props.history.push("./shouye");
           } else if (res.data.message == "用户密码错误！") {
             alert("密码错误");

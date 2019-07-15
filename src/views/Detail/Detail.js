@@ -193,7 +193,7 @@ export default class Detail extends Component {
       headers: { Accept: "application/json", Authorization: "Bearer " + token }
     }).then(res => {
       console.log(res);
-      if (res.code.data == "success") {
+      if (res.data.code == "success") {
         window.location.href = "/wall";
       }
     });
