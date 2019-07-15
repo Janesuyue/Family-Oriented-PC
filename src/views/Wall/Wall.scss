@@ -1,0 +1,44 @@
+#components-layout-demo-top .logo {
+  width: 120px;
+  height: 31px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 16px 24px 16px 0;
+  float: left;
+}
+#root .outWall {
+  width: 1220px;
+  margin: 0 auto;
+}
+.outWall h3 {
+  font-size: 16px;
+}
+
+.gouwu {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.shangpin {
+  background: #eeeeee;
+  height: 50px;
+  line-height: 50px;
+  font-size: 14px;
+}
+.check > p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.yanse {
+  font-size: 12px;
+  color: #dbdbdb;
+}
+
+.check img {
+  margin-left: 20px;
+}
+.ant-row-flex-space-between {
+}
+.ant-col .ant-col-4 {
+  display: flex;
+  justify-content: center;
+}

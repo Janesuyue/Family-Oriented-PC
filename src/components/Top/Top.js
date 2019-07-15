@@ -10,18 +10,25 @@ export default class Top extends Component {
   constructor(props) {
     super(props);
   }
-
+  gouwu() {
+    window.location.href = "/wall";
+  }
+  person() {
+    window.location.href = "/person";
+  }
   render() {
     return (
       <div>
-        <div class="clearfix" id="top">
-          <h1 class="fl">
-            <a href="index.html">
-              <img src="../../image/timg.jpg" />
-            </a>
-          </h1>
-          <div class="fr clearfix" id="top1">
-            <p class="fl">
+        <div className="clearfix" id="top">
+          <div className="outLogo">
+            <h1 className="fl logo">苏悦之家</h1>
+            {/* <a href="index.html">
+              <img src="https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=2184684442,405861880&fm=27&gp=0.jpg" />
+            </a> */}
+          </div>
+
+          <div className="fr clearfix" id="top1">
+            <p className="fl ">
               <a href="#" id="login">
                 登录
               </a>
@@ -29,18 +36,19 @@ export default class Top extends Component {
                 注册
               </a>
             </p>
-            <form action="#" method="get" class="fl">
-              <input type="text" placeholder="热门搜索：干花花瓶" />
-              <input type="button" />
-            </form>
+            <div className="outSearch">
+              <div className="search">搜索</div>
+              <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ss.png" />
+            </div>
+
             <div class="btn fl clearfix">
-              <a href="mygxin.html">
+              <a href="#" onClick={this.person.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/grzx.png" />
               </a>
               <a href="#" class="er1">
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ewm.png" />
               </a>
-              <a href="cart.html">
+              <a href="#" onClick={this.gouwu.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/gwc.png" />
               </a>
               {/* <p>
@@ -54,8 +62,8 @@ export default class Top extends Component {
         <Tabs defaultActiveKey="1" onChange={callback} className="first">
           <TabPane tab="首页" key="1" />
           <TabPane tab="所有商品" key="2">
-            <div class="sList">
-              <div class="wrapper  clearfix">
+            <div className="sList">
+              <div className="wrapper  clearfix">
                 <a href="paint.html">
                   <dl>
                     <dt>
@@ -100,16 +108,16 @@ export default class Top extends Component {
             </div>
           </TabPane>
           <TabPane tab="装饰摆件" key="3">
-            <div class="sList2">
-              <div class="clearfix">
+            <div className="sList2">
+              <div className="clearfix">
                 <a href="proList.html">干花花艺</a>
                 <a href="vase_proList.html">花瓶花器</a>
               </div>
             </div>
           </TabPane>
           <TabPane tab="布艺软饰" key="4">
-            <div class="sList2">
-              <div class="clearfix">
+            <div className="sList2">
+              <div className="clearfix">
                 <a href="zbproList.html">桌布罩件</a>
                 <a href="bzproList.html">抱枕靠垫</a>
               </div>

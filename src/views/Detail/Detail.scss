@@ -1,0 +1,137 @@
+.outDetail {
+  width: 1220px;
+  margin: 0 auto;
+}
+.biaoti {
+  overflow: hidden;
+}
+.tupian {
+  float: left;
+}
+.tupian > img {
+  width: 450px;
+  height: 450px;
+  margin-bottom: 20px;
+}
+.l_pic img {
+  float: left;
+  margin-right: 20px;
+  width: 85px;
+  height: 85px;
+}
+
+.smallpic {
+  overflow: hidden;
+}
+.smallpic img {
+  float: left;
+  margin-right: 20px;
+  width: 50px;
+  height: 50px;
+}
+.right {
+  width: 700px;
+  border: 1px solid pink;
+  //   margin-left: 20px;
+  float: right;
+}
+.price {
+  color: red;
+  font-size: 18px;
+}
+.right h6 {
+  height: 80px;
+  font-size: 14px;
+  line-height: 80px;
+}
+.right .num {
+  float: left;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+.num1 {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+
+  text-align: center;
+  line-height: 50px;
+  border: none;
+}
+.outNum {
+  overflow: hidden;
+}
+.outBuy {
+  margin-top: 20px;
+}
+.buy {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  background: red;
+  color: #ffffff;
+  float: left;
+}
+
+.cart {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-size: 14px;
+  border: 1px solid #000000;
+  color: #000000;
+  float: left;
+  margin-left: 100px;
+}
+
+// 详情xiangqing
+ant-tabs-tab-active .ant-tabs-tab :hover {
+  color: red;
+}
+.ant-tabs-tabpane .ant-tabs-tabpane-active {
+  width: 940px;
+}
+.xiangqing {
+  float: left;
+}
+.xiangqing img {
+  width: 940px;
+  height: 696px;
+}
+.r_tuijian {
+  margin-top: 20px;
+  float: right;
+  width: 200px;
+  margin-left: 20px;
+
+  border: 1px solid #dbdbdb;
+}
+.r_tuijian img {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.r_tuijian h3 {
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  background: #dbdbdb;
+  font-size: 14px;
+  //   margin-top: 20px;
+}
+.r_tuijian p {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+.ipt {
+  margin-bottom: 20px;
+}

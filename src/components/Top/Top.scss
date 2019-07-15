@@ -34,6 +34,7 @@
 .clearfix a {
   display: block;
   margin-left: 20px;
+  margin-top: 10px;
 }
 .clearfix dd {
   text-align: center;
@@ -48,4 +49,39 @@ nav .ant-tabs-tab:active {
 }
 .first {
   margin-left: 100px;
+}
+
+.search {
+  width: 170px;
+  height: 30px;
+  border-bottom: 1px solid #000000;
+  margin-top: 10px;
+  float: left;
+}
+.outSearch img {
+  float: right;
+  margin-top: 15px;
+}
+#login {
+  float: left;
+  // margin-right: 10px;
+}
+#reg {
+  float: right;
+  margin-right: 20px;
+  // border-left: 1px solid #dbdbdb;
+}
+.outLogo img {
+  width: 170px;
+  height: 60px;
+  float: right;
+}
+.outLogo h1 {
+  margin-right: 100px;
+}
+.ant-tabs-line {
+  margin-top: 20px;
+}
+#top {
+  margin-top: 20px;
 }

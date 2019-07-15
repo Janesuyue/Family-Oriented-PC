@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 import { Form, Icon, Input, Button, Checkbox, Tooltip } from "antd";
 import { BrowserRouter as Router, Route, NavLink } from "react-router-dom";
-import "./Login.scss";
+import "./shouye.scss";
 import { Row, Col } from "antd";
+import Picture from "../Picture/Picture";
+
 export default class Login extends Component {
   constructor() {
     super();
@@ -104,47 +106,6 @@ export default class Login extends Component {
                   </dl>
                 </a>
               </div>
-              <div class="flower clearfix tran">
-                <a href="proDetail.html">
-                  <dl>
-                    <dt>
-                      <span class="abl" />
-                      <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo4.jpg" />
-                      <span class="abr" />
-                    </dt>
-                    <dd>【花艺】七头美丽玫瑰仿真花束</dd>
-                    <dd>
-                      <span>¥ 79.00</span>
-                    </dd>
-                  </dl>
-                </a>
-                <a href="proDetail.html">
-                  <dl>
-                    <dt>
-                      <span class="abl" />
-                      <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo5.jpg" />
-                      <span class="abr" />
-                    </dt>
-                    <dd>【花艺】七头美丽玫瑰仿真花束</dd>
-                    <dd>
-                      <span>¥ 79.00</span>
-                    </dd>
-                  </dl>
-                </a>
-                <a href="proDetail.html">
-                  <dl>
-                    <dt>
-                      <span class="abl" />
-                      <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/flo6.jpg" />
-                      <span class="abr" />
-                    </dt>
-                    <dd>【花艺】七头美丽玫瑰仿真花束</dd>
-                    <dd>
-                      <span>¥ 79.00</span>
-                    </dd>
-                  </dl>
-                </a>
-              </div>
             </div>
             <a href="#" class="ad">
               <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ib1.jpg" />
@@ -208,117 +169,10 @@ export default class Login extends Component {
                     </dl>
                   </a>
                 </div>
-                <div class="pList clearfix tran">
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s6.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】金属壁饰创意背景墙面挂件创意</dd>
-                      <dd>
-                        <span>￥228.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s8.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】小城动物木板画壁挂北欧</dd>
-                      <dd>
-                        <span>￥199.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s12.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】欧式复古挂钟创意餐厅钟表家居挂件</dd>
-                      <dd>
-                        <span>￥666.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s1.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】客厅地中海欧式现代相片墙创意</dd>
-                      <dd>
-                        <span>￥59.80</span>
-                      </dd>
-                    </dl>
-                  </a>
-                </div>
-                <div class="pList clearfix tran">
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s5.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】铁艺荷叶壁挂软装背景墙上装饰品</dd>
-                      <dd>
-                        <span>￥800.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s3.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】欧式照片墙 创意组合结婚礼物</dd>
-                      <dd>
-                        <span>￥189.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s2.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】欧式钟表相框墙挂墙创意组合</dd>
-                      <dd>
-                        <span>￥148.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                  <a href="proDetail.html">
-                    <dl>
-                      <dt>
-                        <span class="abl" />
-                        <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/s11.jpg" />
-                        <span class="abr" />
-                      </dt>
-                      <dd>【最家】小城动物木板画壁挂北欧</dd>
-                      <dd>
-                        <span>￥188.00</span>
-                      </dd>
-                    </dl>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
+          <Picture />
         </div>
       </Router>
     );
