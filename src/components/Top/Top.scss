@@ -31,12 +31,12 @@
   font-size: 14px;
 }
 
-.clearfix a {
-  display: block;
-  margin-left: 20px;
-  margin-top: 10px;
-}
-.clearfix dd {
+// .clearfix a {
+//   display: block;
+//   margin-left: 20px;
+//   margin-top: 10px;
+// }
+.paint dd {
   text-align: center;
   margin-top: 10px;
 }
@@ -50,7 +50,10 @@ nav .ant-tabs-tab:active {
 .first {
   margin-left: 100px;
 }
-
+.outSearch {
+  width: 200px;
+  height: 30px;
+}
 .search {
   width: 170px;
   height: 30px;
@@ -64,24 +67,60 @@ nav .ant-tabs-tab:active {
 }
 #login {
   float: left;
-  // margin-right: 10px;
+  margin-right: 20px;
 }
 #reg {
   float: right;
   margin-right: 20px;
   // border-left: 1px solid #dbdbdb;
 }
-.outLogo img {
-  width: 170px;
-  height: 60px;
+.outLogo {
+  float: left;
+}
+#top1 {
   float: right;
+  width: 800px;
+  display: flex;
+  // justify-content: space-around;
+}
+#top1 p {
+  height: 30px;
+  line-height: 30px;
+  margin-top: 8px;
+}
+.denglu {
+  float: left;
+  height: 30px;
+}
+.btn {
+  // float: right;
+  margin-left: 20px;
+  height: 30px;
+  margin-top: 10px;
+}
+.btn a {
+  margin-left: 10px;
+  // margin-top: 10px;
 }
 .outLogo h1 {
-  margin-right: 100px;
+  margin-left: 300px;
 }
 .ant-tabs-line {
   margin-top: 20px;
 }
 #top {
   margin-top: 20px;
+}
+
+.paint a {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+.clearfix1 {
+  margin-left: 200px;
+}
+.clearfix1 a {
+  display: inline-block;
+  margin-right: 20px;
 }

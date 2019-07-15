@@ -9,7 +9,6 @@ export default class Home extends Component {
       <div>
         <Top />
         <Banner />
-        <h2>111</h2>
       </div>
     );
   }

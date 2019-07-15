@@ -45,25 +45,37 @@ export default class Wall extends Component {
                 <p className="yanse">白色瓷瓶+白色串枚</p>
               </div>
             </Col>
-            <Col span={4}>￥20.00</Col>
             <Col span={4}>
-              <InputNumber
-                className="ipt"
-                min={1}
-                max={1000}
-                defaultValue={1}
-                onChange={onChange}
-              />
+              <div className="shuliang">
+                <p>￥20.00</p>
+              </div>
             </Col>
-            <Col span={4}>￥20.00</Col>
             <Col span={4}>
-              <Popconfirm
-                title="确定删除该商品"
-                okText="确定"
-                cancelText="取消"
-              >
-                <a href="#">删除</a>
-              </Popconfirm>
+              <div className="outIpt">
+                <InputNumber
+                  className="ipt"
+                  min={1}
+                  max={1000}
+                  defaultValue={1}
+                  onChange={onChange}
+                />
+              </div>
+            </Col>
+            <Col span={4}>
+              <div className="shuliang">
+                <p>￥20.00</p>
+              </div>
+            </Col>
+            <Col span={4}>
+              <div className="shanchu">
+                <Popconfirm
+                  title="确定删除该商品"
+                  okText="确定"
+                  cancelText="取消"
+                >
+                  <a href="#">删除</a>
+                </Popconfirm>
+              </div>
             </Col>
           </Row>
         </div>

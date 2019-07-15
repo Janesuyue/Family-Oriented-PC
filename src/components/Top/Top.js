@@ -28,7 +28,7 @@ export default class Top extends Component {
           </div>
 
           <div className="fr clearfix" id="top1">
-            <p className="fl ">
+            <p className="fl denglu">
               <a href="#" id="login">
                 登录
               </a>
@@ -41,7 +41,7 @@ export default class Top extends Component {
               <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/ss.png" />
             </div>
 
-            <div class="btn fl clearfix">
+            <div className="btn fl clearfix">
               <a href="#" onClick={this.person.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/grzx.png" />
               </a>
@@ -51,11 +51,6 @@ export default class Top extends Component {
               <a href="#" onClick={this.gouwu.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/gwc.png" />
               </a>
-              {/* <p>
-                <a href="#">
-                  <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/smewm.png" />
-                </a>
-              </p> */}
             </div>
           </div>
         </div>
@@ -63,7 +58,7 @@ export default class Top extends Component {
           <TabPane tab="首页" key="1" />
           <TabPane tab="所有商品" key="2">
             <div className="sList">
-              <div className="wrapper  clearfix">
+              <div className="wrapper  clearfix paint">
                 <a href="paint.html">
                   <dl>
                     <dt>
@@ -109,7 +104,7 @@ export default class Top extends Component {
           </TabPane>
           <TabPane tab="装饰摆件" key="3">
             <div className="sList2">
-              <div className="clearfix">
+              <div className="clearfix1">
                 <a href="proList.html">干花花艺</a>
                 <a href="vase_proList.html">花瓶花器</a>
               </div>
@@ -117,7 +112,7 @@ export default class Top extends Component {
           </TabPane>
           <TabPane tab="布艺软饰" key="4">
             <div className="sList2">
-              <div className="clearfix">
+              <div className="clearfix1">
                 <a href="zbproList.html">桌布罩件</a>
                 <a href="bzproList.html">抱枕靠垫</a>
               </div>
