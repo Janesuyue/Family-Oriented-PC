@@ -194,7 +194,7 @@ export default class Detail extends Component {
     }).then(res => {
       console.log(res);
       if (res.code.data == "success") {
-        window.location.href = "/cart";
+        window.location.href = "/wall";
       }
     });
   }

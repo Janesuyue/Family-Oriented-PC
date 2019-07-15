@@ -29,10 +29,10 @@ export default class Top extends Component {
 
           <div className="fr clearfix" id="top1">
             <p className="fl ">
-              <a href="#" id="login">
+              <a href="login" id="login">
                 登录
               </a>
-              <a href="#" id="reg">
+              <a href="register" id="reg">
                 注册
               </a>
             </p>
@@ -42,7 +42,7 @@ export default class Top extends Component {
             </div>
 
             <div class="btn fl clearfix">
-              <a href="#" onClick={this.person.bind(this)}>
+              <a href="mine" onClick={this.person.bind(this)}>
                 <img src="http://www.17sucai.com/preview/1131734/2019-05-13/ZBestPC-master/img/grzx.png" />
               </a>
               <a href="#" class="er1">

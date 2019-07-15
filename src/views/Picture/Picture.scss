@@ -4,13 +4,16 @@
 //   height: 350px;
 // }
 
-.photo3 img {
-  border: 1px solid pink;
-  width: 268px;
-  height: 268px;
-  margin-top: 20px;
-}
-.photo3 p {
-  text-align: center;
-  font-size: 14px;
+.photo3 {
+  img {
+    border: 1px solid pink;
+    width: 268px;
+    height: 268px;
+    margin-top: 20px;
+  }
+  p {
+    width: 268px;
+    text-align: center;
+    font-size: 14px;
+  }
 }
